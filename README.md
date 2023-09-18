@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-  <h1 style="text-align: center;">Учебные работы, верска</h1>
+  <h1 style="text-align: center;">Учебные работы, верстка</h1>
   <ul>    
       <li>fullviewapp</li>
       <li>istanbul</li>
