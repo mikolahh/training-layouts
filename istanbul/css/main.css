@@ -1,0 +1,209 @@
+/* Specification */
+
+body {
+    padding: 0;
+    margin: 0;    
+    font: 500 16px/1.22em 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    color: #304041;
+}
+* {
+    box-sizing: border-box;
+}
+section {   
+    padding: 72px 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+p {
+	margin: 0;
+}
+.container {    
+    max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;    
+}
+a {
+    text-decoration: none;
+    display: inline-block;    
+}
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;    
+}
+.section-title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.22em;
+    letter-spacing: 0.05em;    
+    text-align: center;    
+    margin-bottom: 100px;    
+}
+.header-offer :not(:last-child) {
+    margin-bottom: 24px;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(54, 207, 255, 0.23) 44.44%), url('../img/istanbul-bg.jpg') no-repeat center top / cover;
+    text-align: center;
+    padding: 90px 0 70px;    
+} 
+.header-offer {
+    margin-top: 198px;
+    color: #fff;
+}
+.header-offer__info {
+    display: inline-block;
+    color: #000;
+    background: #fff;    
+    font-weight: 800;    
+    font-size: 15px;
+    line-height: 1.22em;
+    letter-spacing: 0,05em;    
+    text-transform: uppercase;    
+    padding: 8px 17px;
+    border-radius: 78px;
+    margin: 0 auto;    
+}
+.header-offer__title {             
+    font-weight: 800;
+    font-size: 60px;    
+    line-height: 1.22em;
+    letter-spacing: 0.145em;  
+}
+.header-offer__btn {    
+font-size: 20px;
+line-height: 1.22em;
+letter-spacing: 00.05em;
+}
+.header-offer__more {
+    color: #fff;
+    background: #36CFFF;
+    font-weight: 800;
+    line-height: 19.5px;   
+    border-radius: 119px;
+    padding: 18px 52px;    
+}
+.arrow-down { 	
+	width: 18px;
+	/* height: 27px;	Высоту не задаем, т.к. у нас только картинка */ 
+    margin: 222px auto 0;
+}
+
+/* Section Routes */
+.routes {
+    padding-top: 143px;
+}
+.routes-wrapper {     
+    display: flex;
+    background: #FFEFF5;
+    align-items: center;        
+}
+
+.routes-content {     
+    padding: 112px 72px 0px 72px;
+}
+.routes-content__number {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.22em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.routes-content__title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.22em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.routes-content__info {
+    font-size: 15px;
+    line-height: 1.52em;
+    line-height: 22.86px;
+}
+p.routes-content__info:not(:last-of-type) {
+    margin-bottom: 25px;
+}
+.arrow-next {    
+    margin-top: 48px;      
+}
+
+.routes-img {
+    max-width: 476px;
+    width: 100%;
+    /* Мне кажется, что высоту картинки надо все-таки задать,
+    так как она у нас, судя по всему, определяет высоту блока,
+    которая по идее не должна зависеть от размера загружаемой картинки,
+    ведь клиент может загрузить другую, с иными размерами
+     */
+    height: 649px;      
+    flex-shrink: 0;    
+}
+.routes-img img {
+    width: 100%;
+    height: 100%;    
+    box-shadow: 0px 25px 70px rgba(4, 43, 55, 0.28);   
+}
+.routes-btn-wrap {
+    text-align: center;
+    margin-top: 90px;
+}
+.routes-btn {    
+    color: #36CFFF;
+    background: #fff;    
+    font-weight: 800;    
+    border: 1px solid #36CFFF;   
+    border-radius: 94px;
+    padding: 18px 49px;   
+}
+
+/* Section Features */
+.features-wrapper {
+    background: url('../img/istanbul-photo-2.jpg') no-repeat right center / 50%;
+    padding: 155px 0;
+    
+} 
+.features-list {
+    max-width: 480px;
+}
+.features-list__item:not(:last-child) {
+    margin-bottom: 61px;
+}
+.features-list__item:before {
+    content: '';
+    display: block;
+    width: 65px;
+    height: 7px;
+    background: #4EB1B6;
+    border-radius: 23px;
+    margin-bottom: 14px;
+}
+
+/* Footer */
+.footer {    
+    padding: 20px 0 165px;
+}
+span.footer-info__text {
+    color: #5C7677;
+    font-size: 14px;
+    line-height: 1.22em;
+    margin-right: 55px;
+    letter-spacing: 0.05em;
+}
+
+
